@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: auto;
     gap: 2rem;
+    padding-top: 3rem;
 }
 .popoular__title{
     font-size: 3rem;
