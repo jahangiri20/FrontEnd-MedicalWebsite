@@ -1,5 +1,4 @@
-.popular__searches{
-    
+.popular__searches{  
     display: grid;
     grid-template-columns: auto;
     gap: 2rem;
@@ -38,8 +37,6 @@
     background-color: var(--primary_color);
     transform: translateZ(-2rem)
     
-    
-    
 }
 
 .popular__item i{
@@ -55,14 +52,11 @@
 }
 .popular__item.item1{
     border-right: solid 0.2rem var(--secondry_color);
-    
-    
 
 }
 .popular__item.item1 a{
     line-height: 3rem;
     text-align: right;
-    
 
 }
 .item1 a:hover{
