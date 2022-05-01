@@ -42,5 +42,5 @@
 }
 .spesialist__item:hover{
     color: var(--secondry_color);
-    transform: translateY(-1rem);
+    transform: translateY(-2rem);
 }
