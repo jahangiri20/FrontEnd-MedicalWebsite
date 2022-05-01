@@ -1,0 +1,30 @@
+.find__doctor{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
+   
+}
+.find__doctor--left{
+    display: grid;
+    grid-column: 2/9;
+    grid-template-rows: 25rem;  
+    padding-top: 4rem;
+}
+
+.hospital{
+   
+}
+.find__doctor--right{
+    display: grid;
+    grid-column: 9/-1;
+    grid-template-rows: 50rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.find__doctor--right img{
+  
+    
+}

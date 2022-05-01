@@ -1,0 +1,142 @@
+.health__section{
+    background-color: var(--primary_color);
+    padding-bottom: 9rem;
+    padding-top: 1rem;
+    
+
+}
+.health{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 30rem;
+    gap: 2rem;
+    font-weight: 400;
+
+    
+
+}
+.health__left{
+    display: grid;
+    
+    grid-template-columns:1fr;
+    
+    
+}
+.health__right{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+
+    position: relative;
+}
+.health__links{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap: 6.5rem;
+    align-items: center;
+    
+}
+.health__link{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
+    background-color: var(--body_color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+    
+    
+}
+.health__link:hover{
+    background-color: #6DA54F ;
+    
+   
+}
+.health__link a{
+    color: white;
+}
+.health__link a:hover{
+    
+}
+.health__link i{
+    padding: 1rem;
+   
+    
+}
+
+.health__right img{
+    
+    position: absolute;
+    top:-12rem;
+    width: 100%;
+    height: auto;
+    
+    
+}
+.box__back{
+    background-color: white;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+    
+    margin-top: -19.2rem;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  
+    
+}
+.box__searchs{
+   
+    display: grid;
+    grid-template-columns: 9fr 9fr 1fr;
+    align-items: center;
+    gap: 1rem;
+   
+}
+input{
+    padding: 1.5rem 34rem 1.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(240, 239, 239);
+    background-color:#F8FAFC; ;
+}
+.box__looking{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.lookings{
+    display: grid;
+    grid-template-columns: 14fr 1fr;
+    
+    align-items: center;
+    
+}
+.looking__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.btn__more{
+    color: var(--secondry_color);
+    background-color: #CCDFFF;
+    border-color: #cccd;
+}
+.search__icon i{
+    background-color: var(--secondry_color);
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    padding: 1.4rem;
+
+}
+.search__icon i:hover{
+    background-color: #6DA54F;
+    
+}

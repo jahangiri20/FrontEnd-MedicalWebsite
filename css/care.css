@@ -1,0 +1,44 @@
+.care__section{
+    background-color: var(--primary_color);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.care{
+    display: grid;
+    grid-template-columns: repeat(16 , 1fr);
+    grid-template-rows: 55rem;
+  
+    
+}
+.care__left{
+    display: grid;
+    grid-column: 2/10;
+}
+.care__left img{
+   
+}
+.care__right{
+    
+    grid-column: 10/16;
+    padding-top: 5rem;
+   
+   
+    
+}
+.care__items{
+    font-weight: 600;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    
+    
+
+}
+.care__item{
+    line-height: 4rem;
+}
+.care__item i{
+     color: var(--secondry_color);
+     font-size: 2.5rem;
+     padding-right: 0.5rem;
+}
