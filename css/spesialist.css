@@ -22,6 +22,7 @@
     
 }
 .spesialist__item{
+    cursor: pointer;
     
     
 }
@@ -51,6 +52,8 @@
 }
 .spesialist__item:hover{
     color: var(--secondry_color);
+    transform: translateY(-1rem);
+    
     
    
 

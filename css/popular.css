@@ -4,6 +4,7 @@
     grid-template-columns: auto;
     gap: 2rem;
     padding-top: 3rem;
+
 }
 .popoular__title{
     font-size: 3rem;
@@ -25,12 +26,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-1rem);
+    
 }
 .popular__item:hover{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
     background-color: var(--primary_color);
+    transform: translateZ(-2rem)
+    
+    
     
 }
 
@@ -48,6 +56,7 @@
 .popular__item.item1{
     border-right: solid 0.2rem var(--secondry_color);
     
+    
 
 }
 .popular__item.item1 a{
@@ -60,4 +69,5 @@
     font-weight: 900;
     color: var(--secondry_color);
     border-bottom: #6DA54F solid 0.2rem;
+    
 }
