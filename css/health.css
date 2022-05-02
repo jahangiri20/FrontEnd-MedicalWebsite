@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 30rem;
-    gap: 2rem;
+    gap: 1rem;
     font-weight: 400;
 
     
@@ -69,7 +69,8 @@
 .health__right img{
     
     position: absolute;
-    top:-2.3rem;
+    top: -2.3rem;
+    
     
     
     
