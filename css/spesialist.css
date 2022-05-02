@@ -7,7 +7,10 @@
 .specialist__title{
     padding: 8rem 0rem 2em 0rem;
     text-align: center;
+    
+    
 }
+
 
 .specialist__items{  
     display: grid;

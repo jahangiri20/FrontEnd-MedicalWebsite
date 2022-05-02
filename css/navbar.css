@@ -2,21 +2,44 @@
 .navbar{
     background-color: var(--primary_color);
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr ;
-    grid-template-rows: 5rem;
+    grid-template-columns: repeat(20 , 1fr);
+    
     align-items: center;
     padding: 1rem;
-    box-sizing: border-box;
-}
-.navbar__menu{
+ 
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    position: fixed;
+    z-index: 900;
+    width: 100%;
     
    
 }
+.navbar__logo{
+    
+    grid-column: 2/5;
+    
+}
+
+.navbar__menu{
+   
+    grid-column: 5/15;
+    
+    
+        
+   
+}
+.navbar__links{
+    
+    
+    grid-column: 18/-1;
+    
+}
+
 .navbar__menu ul li {
     
     display: inline;
     padding-right: 2rem;
-   
     font-weight: 800;
     
 }
@@ -30,13 +53,6 @@ a{
     text-decoration: none;
 }
 
-.navbar__logo{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
 .navbar__links a{
     margin-right: 2rem;  
     font-weight: 800; 

@@ -122,7 +122,9 @@ input{
 .looking__title{
     font-size: 2rem;
     font-weight: 600;
+    
 }
+
 .btn__more{
     color: var(--secondry_color);
     background-color: #CCDFFF;
@@ -137,6 +139,6 @@ input{
 
 }
 .search__icon i:hover{
-    background-color: #6DA54F;
+    background-color: var(--green_color);
     
 }
