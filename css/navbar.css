@@ -51,6 +51,7 @@
 }
 a{
     text-decoration: none;
+    color: var(--body_color);
 }
 
 .navbar__links a{

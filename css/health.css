@@ -2,31 +2,22 @@
     background-color: var(--primary_color);
     padding-bottom: 9rem;
     padding-top: 1rem;
-    
-
 }
 .health{
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 30rem;
+    grid-template-rows: 35rem;
     gap: 1rem;
     font-weight: 400;
-
-    
-
 }
 .health__left{
     display: grid;
-    
-    grid-template-columns:1fr;
-    
-    
+    grid-template-columns:1fr;  
+    gap: 2rem;
 }
 .health__right{
     display: grid;
     grid-template-columns: 1fr;
-   
-
     position: relative;
 }
 .health__links{
@@ -40,8 +31,6 @@
 .health__link{
     display: grid;
     grid-template-columns: auto auto;
-    
-
     background-color: var(--body_color);
     border-radius: 0.5rem;
     padding: 1rem;
@@ -63,13 +52,12 @@
 .health__link i{
     padding: 1rem;
    
-    
 }
 
 .health__right img{
     
     position: absolute;
-    top: -2.3rem;
+   top:2.7rem
     
     
     
