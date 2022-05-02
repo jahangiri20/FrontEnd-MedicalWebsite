@@ -8,7 +8,7 @@
 }
 .find__doctor--left{
     display: grid;
-    grid-column: 2/9;
+    grid-column: 2/8;
     grid-template-rows: 25rem;  
     padding-top: 4rem;
 }
@@ -18,7 +18,7 @@
 }
 .find__doctor--right{
     display: grid;
-    grid-column: 9/-1;
+    grid-column: 8/-1;
     grid-template-rows: 50rem;
     justify-content: center;
     align-items: center;
