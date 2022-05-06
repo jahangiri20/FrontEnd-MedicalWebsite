@@ -3,6 +3,7 @@
     grid-template-columns: repeat(16, 1fr);
     padding-bottom: 5rem;
     padding-top: 3rem;
+    gap: 1rem;
 
    
 }
@@ -10,7 +11,7 @@
     display: grid;
     grid-column: 2/8;
     grid-template-rows: 25rem;  
-    padding-top: 4rem;
+ 
 }
 
 .hospital{
@@ -25,6 +26,53 @@
     position: relative;
 }
 .find__doctor--right img{
-  
-    
+    width: 120%;
+   
+}
+.box__find{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    left: 9rem;
+    width: 18rem;
+    height: auto;
+    border-radius: 1rem;
+
+   
+}
+.box__find input{
+    border-radius: 0.3rem;
+    border: 0.1rem solid rgb(240, 239, 239);
+    background-color:#F8FAFC; ;
+    padding: 1rem;
+   
+}
+.box__title{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.find__search{
+    display: grid;
+    grid-template-columns: auto;
+    line-height: 2.5rem;
+    gap: 2rem;
+
+}
+.find__item{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.icon__search i{
+    background-color: #eeee;
+    color: var(--secondry_color);
+    padding: 1rem;
+    border-radius: 50%;
+
 }

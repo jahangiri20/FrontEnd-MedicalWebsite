@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/imgs/WeCare.ico" type="image/x-icon" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,8 +22,11 @@
     <link rel="stylesheet" href="./css/findDoctor.css">
     <link rel="stylesheet" href="./css/care.css">
     <link rel="stylesheet" href="./css/spesialist.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+    <link rel="stylesheet" href="./css/subscript.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
-    <title>Medical</title>
+    <title>We.Care-Medical</title>
 </head>
 <body>
     <section>
@@ -53,7 +57,7 @@
                     <div class="health__left">
                         <div class="health_title"><h1>Feel better about finding healthcare</h1> </div>
                         <div class="health__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            <p>At Healthcare. we take the guesswork out of finding the right doctors, hospitals, and care for you and your family.</p>
                         </div>
                         <div class="health__links">
                             <div class="health__link"><i class="fas fa-user-md"></i><a href="">Prpfiles for every Doctor in America</a> </div>
@@ -105,12 +109,12 @@
                             <a href="">Conditions</a>
                             <a href="">Procedures</a>
                         </div>
-                        <div class="popular__item"><i class="fa-solid fa-heart-pulse"></i> <br> Dermatology</div>
-                        <div class="popular__item"><i class="fa-solid fa-stethoscope"></i> <br> Internal Medicine</div>
-                        <div class="popular__item"><i class="fa-solid fa-heart-pulse"></i> <br> Neurology</div>
-                        <div class="popular__item"><i class="fa-solid fa-stethoscope"></i> <br> General Medicine</div>
-                        <div class="popular__item"><i class="fa-solid fa-heart-pulse"></i></i> <br> Dentisty</div>
-                        <div class="popular__item"><i class="fa-solid fa-stethoscope"></i> <br> Otolaryngology</div>       
+                        <div class="popular__item"><img src="assets/icon/depilation.png" alt=""><br> Dermatology</div>
+                        <div class="popular__item"><img src="assets/icon/lungs.png" alt="">  <br> Internal Medicine</div>
+                        <div class="popular__item"><img src="assets/icon/brain.png" alt=""> <br> Neurology</div>
+                        <div class="popular__item"><img src="assets/icon/medicine.png" alt=""><br> General Medicine</div>
+                        <div class="popular__item"><img src="assets/icon/molar-tooth.png" alt=""> <br> Dentisty</div>
+                        <div class="popular__item"><img src="assets/icon/nose.png" alt=""> <br> Otolaryngology</div>       
                     </div>
                 </div>
             </div>
@@ -121,10 +125,31 @@
             <div class="container">
                 <div class="find__doctor">
                     <div class="find__doctor--left">
-                        <div class="doctor__title"><h1>Find the right doctor right at your fingertips</h1><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-                        <div class="hospital"><b>Search nearest hospital</b> </div>
+                        <div class="doctor__title"><h1>Find the right doctor right at your fingertips</h1> <br> <p>Wecare gives you the tools and information you need to</p>  </div>
+                        <div class="find__search"> 
+                            <div class="find__item">
+                                <div class="icon__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="text__search"><b>Search nearest hospital</b><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint fugiat id provident. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p></div> 
+                            </div>
+                            <div class="find__item">
+                                <div class="icon__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="text__search"><b>Appointment with the best doctors</b><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint fugiat id provident. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p></div> 
+                            </div>
+                            <div class="find__item">
+                                <div class="icon__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                                <div class="text__search"><b>Get contact</b><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint fugiat id provident. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p></div> 
+                            </div>
+                        </div>
                     </div>
-                    <div class="find__doctor--right"><img src="./assets/images/kisspng-physician-medicine-medical-laboratory-patient-doct-female-doctor-5b1588cb28de70.0059821115281379311674 (2).png" alt=""></div>
+                    <div class="find__doctor--right">
+                        <img class="animate animate__animated" src="./assets/images/imgs/step-doc-img.png" alt="">
+                        <div class="box__find"> 
+                            <div class="box__title">Find the best doctor to need</div>
+                            <div class="box__search"><input type="text" placeholder="Search Doctor" size="15rem"> </div>
+                            <div class="box__loation"><input type="text" placeholder="Set Location" size="15rem"></div>
+                            <div class="box__btn--search"> <button class="btn" type="submit">Search</button> </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,10 +159,16 @@
             <div class="container">
                 <div class="care">
                     <div class="care__left">
-                        <img src="./assets/images/doctor_PNG16040.png" alt="">
-                    </div>
+                        <img class="care__image" src="./assets/images/imgs/why-doc-img.png" width="60%" alt="">
+                        
+                        <img class="box__image" src="/assets/images/imgs/why-doc-img-2.svg " width="25%"  alt="">
+                            
+                        </div>
+                        
+                    
                     <div class="care__right">
-                        <div class="care__title"><h1>Why you choose We.care</h1><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                        <div class="care__title">
+                            <h1>Why you choose We.care</h1><br> <p>We.care gives you the tools and information you need to</p> 
                         </div>
                         <div class="care__items">
                             <div class="care__item"><i class="fa-regular fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
@@ -147,16 +178,17 @@
                             <div class="care__item"><i class="fa-regular fa-circle-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
 
                         </div>
-                        <button class="btn">Choose</button>
+                        <button class="btn">Get Free Subscription</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <div class="specialist">
+        <section>
         <div class="container">
             <div class="specialists">
-                <div class="specialist__title"><h1>Meet our specialist</h1> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                <div class="specialist__title"><h1>Meet our specialist</h1> <br><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> </div>
                 <div class="specialist__items">
                     <div class="specialist__item ">
                         <div class="specialist__back">
@@ -213,6 +245,111 @@
             </div>
         </div>
     </div>
-    
+</section>
+<section>
+    <div class="container">
+        <div class="feedback">
+            <div class="feedback__title"> 
+                <h1>Our Patients feedback about us</h1>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feedbacks">
+                <div class="feedback__left">
+                    <img src="./assets/images/imgs/feedback-doc-img (1).png" width="50%" alt="">
+                </div>
+                <div class="feedback__right">
+                    <div class="feedback__item">
+                      <div class="feedback__item1">
+                         <div class="feedback__photo">
+                             <img src="./assets/images/feedback-slide-1.png" width="100px" height="100px"  alt=""> 
+                         </div>
+                         <div class="feedback__names"> <b>Brooklyn Jacob</b> <p>NewYork , USA</p> <span>******</span>
+                        </div>   
+                         </div>
+                         <div class="feedback__text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque saepe aliquam cupiditate earum accusantium. Accusamus voluptatum voluptas aliquid. </div>   
+                      </div> 
+                      
+                
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section>
+    <div class="sub">
+        <div class="container">
+            <div class="subscribe">
+                <div class="subscribe__content">
+                    <div class="subscribe__title"><h1>Subscribe for any news update from wecare</h1></div>
+                    <div class="subscribe__email"> <input type="text" name="" id="" placeholder="Enter your email address" size="33rem"> <button class="btn btn__subscribe">Subscript</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="foot">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item item1">
+                    <div class="logo">
+                        <img src="./assets/images/WeCare-Logo150.png" alt="">
+                    </div>
+                    <div class="footer__icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-telegram"></i>
+                        <i class="fa-brands fa-youtube-square"></i>
+                        <i class="fa-brands fa-instagram"></i> 
+                    </div>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    
+                </div>
+                <div class="footer__item">
+                    <div class="footer__title">For Patients</div>
+                    <ul>
+                        <li> <a href="">Account Sign Up / Log in</a> </li>
+                        <li> <a href="">Hospital Awards & Ratings</a> </li>
+                        <li> <a href="">Quality & Quantity</a> </li>
+                        <li> <a href="">FAQ</a> </li>
+                    </ul>
+                    
+                </div>
+                <div class="footer__item ">
+                    <div class="footer__title">For Providers</div>
+                    <ul>
+                        <li> <a href="">Provide Log in</a> </li>
+                        <li> <a href="">Delete your account</a> </li>
+                        <li> <a href="">Educational</a> </li>
+                        <li> <a href="">Upload Your Free Profile</a> </li>
+                    </ul>
+                    
+                </div>
+                <div class="footer__item ">
+                    <div class="footer__title">For Providers</div>
+                    <ul>
+                        <li> <a href="">Client Log in</a> </li>
+                        <li> <a href="">Healthcare for Health Insuran</a> </li>
+                        <li> <a href="">Advertise With Us</a> </li>
+                        <li> <a href="">Apply for Sponsership</a> </li>
+                    </ul>
+                    
+                </div>
+                <div class="footer__item ">
+                    <div class="footer__title">Our Company</div>
+                    <ul>
+                        <li> <a href="">Contact Us</a> </li>
+                        <li> <a href="">About Us</a> </li>
+                        <li> <a href="">Corporate</a> </li>
+                        <li> <a href="">Employment</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   
 </body>
+<script src="js.js"></script> 
 </html>

@@ -51,18 +51,14 @@
     
 }
 .health__link i{
-    padding: 1rem;
-   
+    padding: 1rem;  
 }
 
 .health__right img{
     
     position: absolute;
-   top:2.7rem
-    
-    
-    
-    
+    top:2.7rem
+ 
 }
 .box__back{
     background-color: white;
@@ -78,9 +74,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    
-  
-    
+      
 }
 .box__searchs{
    
@@ -90,12 +84,16 @@
     gap: 1rem;
    
 }
-input{
+.box__searchs input{
     padding: 1.5rem 34rem 1.5rem 1.5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid rgb(240, 239, 239);
     background-color:#F8FAFC; ;
+    outline: none;
+    
+
 }
+
 .box__looking{
     display: grid;
     grid-template-columns: 1fr;

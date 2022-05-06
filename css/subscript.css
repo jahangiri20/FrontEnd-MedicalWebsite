@@ -1,0 +1,45 @@
+.subscribe{
+    display: grid;
+    grid-template-columns: repeat(10 , 1fr);
+    margin: 8rem;
+
+}
+.subscribe__content{
+    background-color: var(--secondry_color);
+    color: white;
+    grid-column: 3/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 1rem;
+  
+    padding: 5rem;
+    
+    gap: 3rem;
+   max-width: fit-content;
+    
+    
+}
+.subscribe__email{
+    background-color: white;
+    padding: 0.5rem;
+    max-width: fit-content;
+    border-radius: 1rem;
+   
+   
+}
+.subscribe__email input{
+    border: none;
+    padding: 1rem 1rem ;
+    background: transparent;
+    outline: none;
+   
+    
+}
+.btn__subscribe{
+    background-color: var(--body_color);
+    border-color: var(--body_color);
+}

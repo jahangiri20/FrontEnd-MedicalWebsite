@@ -18,12 +18,14 @@ body{
    color: var(--body_color);
    background-color: #F8FAFC;
    font-size: 1.5rem;
+   font-family:"Lato", "Roboto", sans-serif;
 }
 :root{
     --primary_color: #E8F1FF;
     --secondry_color : #014ED5;
     --body_color: #102851;
     --green_color: #6DA54F;
+    
 
 
 }
@@ -41,6 +43,9 @@ body{
 h1{
     font-size: 5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p{
+    color: gray;
 }
 button {
     cursor: pointer;
@@ -70,3 +75,4 @@ button {
     background-color:var(--body_color);
     border-color: var(--body_color);
 }
+

@@ -1,26 +1,31 @@
 .care__section{
     background-color: var(--primary_color);
     padding-top: 5rem;
-    padding-bottom: 5rem;
+ 
 }
 .care{
     display: grid;
     grid-template-columns: repeat(16 , 1fr);
-    grid-template-rows: 55rem;
+
   
     
 }
 .care__left{
     display: grid;
-    grid-column: 2/10;
+    grid-column: 3/10;
+   
+    
+    position: relative;
 }
 .care__left img{
+    
+    
    
 }
 .care__right{
-    
+  
     grid-column: 10/16;
-    padding-top: 5rem;
+  
    
    
     
@@ -35,10 +40,19 @@
 
 }
 .care__item{
-    line-height: 4rem;
+    line-height: 3.3rem;
 }
 .care__item i{
      color: var(--secondry_color);
      font-size: 2.5rem;
      padding-right: 0.5rem;
+}
+
+.care__image{
+
+}
+.box__image{
+    position: absolute;
+    bottom: 7rem;
+    left: 28rem;
 }

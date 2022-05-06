@@ -40,16 +40,9 @@
     
 }
 
-.popular__item i{
-    background-color: #6DA54F ;
-    color: white;
-    font-size: 2rem;
-    padding: 1rem;
-    border-radius: 50%;
-}
-.popular__item i:hover{
-    background-color: var(--secondry_color);
-    border-radius: 0.5rem;
+.popular__item img{
+    width: 4rem;
+    height: auto;
 }
 .popular__item.item1{
     border-right: solid 0.2rem var(--secondry_color);
