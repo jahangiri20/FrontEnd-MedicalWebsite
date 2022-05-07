@@ -41,6 +41,7 @@
 }
 .care__item{
     line-height: 3.3rem;
+    transition: all 0.3s ease-in-out;
 }
 .care__item i{
      color: var(--secondry_color);

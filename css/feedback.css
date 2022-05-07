@@ -7,9 +7,11 @@
     margin-top: 10rem;
     padding-top: 6rem;
     
+    
 }
 .feedback__title{
     text-align: center;
+
 
 }
 .feedbacks{
@@ -26,6 +28,7 @@
 .feedback__left img{
     position: absolute;
     bottom: 0.4rem;
+    
 }
 
 .feedback__right{
@@ -47,6 +50,12 @@
     background-color: aqua;
     border-radius: 1rem;
     margin-right: 2rem;
+    cursor: pointer;
+}
+.feedback__photo img:hover{
+    border-radius: 50%;
+    
+
 }
 
 .feedback__name b{

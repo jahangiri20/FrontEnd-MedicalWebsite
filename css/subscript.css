@@ -20,6 +20,7 @@
     
     gap: 3rem;
    max-width: fit-content;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
     
 }
@@ -28,6 +29,7 @@
     padding: 0.5rem;
     max-width: fit-content;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
    
    
 }
@@ -42,4 +44,8 @@
 .btn__subscribe{
     background-color: var(--body_color);
     border-color: var(--body_color);
+}
+.btn__subscribe:hover{
+    transition: all 0.2s ease-in;
+    
 }
