@@ -10,7 +10,7 @@
 .find__doctor--left{
     display: grid;
     grid-column: 2/8;
-    grid-template-rows: 25rem;  
+    grid-template-rows: 20rem;  
  
 }
 
@@ -24,9 +24,11 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-top: 3rem;
 }
 .find__doctor--right img{
     width: 120%;
+    
    
 }
 .box__find{
@@ -61,17 +63,39 @@
     grid-template-columns: auto;
     line-height: 2.5rem;
     gap: 2rem;
+    
 
 }
 .find__item{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
+    padding: relative;
 }
 .icon__search i{
     background-color: #eeee;
     color: var(--secondry_color);
     padding: 1rem;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+    
 
+}
+.icon__search i:hover{
+    box-shadow: var(--secondry_color) 0px 0px 0px 3px;
+}
+
+
+
+.find__item::after {
+    content: '';
+    position: absolute;  
+    width: 2px;
+    height: 60px;
+    background-color: #cccc;
+    
+}
+.text__search b{
+    font-size: 2rem;
 }

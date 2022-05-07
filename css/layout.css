@@ -12,7 +12,22 @@ html{
     font-size: 62.5%;
     font-family: "Urbanist", "roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
-      }
+    
+
+ }
+ body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ccc     /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--body_color)  ;  
+    border-radius: 0.5rem;       
+    border: 2px solid  var(--secondry_color); /* creates padding around scroll thumb */
+  }
 
 body{
    color: var(--body_color);

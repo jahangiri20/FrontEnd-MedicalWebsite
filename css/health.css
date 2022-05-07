@@ -6,7 +6,7 @@
 }
 .health{
     display: grid;
-    grid-template-columns: 1.1fr 2fr;
+    grid-template-columns: 1.1fr 2.1fr;
     grid-template-rows: 35rem;
     gap: 1rem;
     font-weight: 400;
@@ -32,18 +32,25 @@
     
 }
 .health__link{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: var(--body_color);
     border-radius: 0.8rem;
-    padding: 1.5rem 
+    padding: 1rem 
     
 }
 
 .health__link:hover{
     background-color: #6DA54F ;
-    
    
+}
+.health__link img{
+    padding-right: 1rem;
+}
+.health__link img:hover{
+    transform: skewY(20deg);
+    
 }
 .health__link a{
     color: white;
