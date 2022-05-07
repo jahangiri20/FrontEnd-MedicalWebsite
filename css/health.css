@@ -7,13 +7,14 @@
 .health{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 35rem;   
+    grid-template-rows: 35rem;
     gap: 1rem;
     font-weight: 400;
 }
 .health__left{
     display: grid;
-    grid-template-columns:1fr;  
+    grid-template-columns:1fr; 
+    
     
 }
 .health__right{
@@ -66,7 +67,7 @@
 
     margin-top: -18.1rem;
     gap: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: relative;
     z-index: 400;
     padding: 2rem;
@@ -96,17 +97,13 @@
 }
 .lookings{
     display: grid;
-    grid-template-columns: 13fr 2fr;
-    
-    
-    
+    grid-template-columns: 13fr 1fr;
+   
 }
 .looking__title{
     font-size: 2rem;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }
-
 .btn__more{
     color: var(--secondry_color);
     background-color: #CCDFFF;
