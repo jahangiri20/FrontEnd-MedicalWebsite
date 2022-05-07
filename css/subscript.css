@@ -13,14 +13,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     border-radius: 1rem;
-  
-    padding: 5rem;
-    
+    padding: 6rem;
     gap: 3rem;
-   max-width: fit-content;
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
     
 }
