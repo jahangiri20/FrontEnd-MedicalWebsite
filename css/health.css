@@ -82,6 +82,11 @@
     padding: 2rem;
      
 }
+.box__back:hover{
+
+
+
+}
 
 .box__searchs{ 
     display: grid;

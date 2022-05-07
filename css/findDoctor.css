@@ -4,13 +4,16 @@
     padding-bottom: 5rem;
     padding-top: 3rem;
     gap: 1rem;
+    
 
    
 }
 .find__doctor--left{
     display: grid;
     grid-column: 2/8;
-    grid-template-rows: 20rem;  
+    grid-template-rows: 20rem; 
+    align-items: center; 
+    
  
 }
 
@@ -27,7 +30,8 @@
     padding-top: 3rem;
 }
 .find__doctor--right img{
-    width: 120%;
+   width: 110%;
+  
     
    
 }
@@ -35,13 +39,16 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    align-items: stretch;
+    justify-content: stretch;
     padding: 1rem;
     gap: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: absolute;
+    z-index: 490;
     left: 9rem;
+  
+    
     width: 18rem;
     height: auto;
     border-radius: 1rem;
@@ -63,6 +70,7 @@
     grid-template-columns: auto;
     line-height: 2.5rem;
     gap: 2rem;
+    position: relative;
     
 
 }
@@ -70,11 +78,13 @@
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding: relative;
+    
+    
 }
 .icon__search i{
     background-color: #eeee;
     color: var(--secondry_color);
+    font-size: 2rem;
     padding: 1rem;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -83,19 +93,27 @@
 
 }
 .icon__search i:hover{
-    box-shadow: var(--secondry_color) 0px 0px 0px 3px;
+    box-shadow: var(--secondry_color) 0px 0px 0px 2px;
+    background-color: white;
 }
 
 
 
-.find__item::after {
+.line::after {
     content: '';
-    position: absolute;  
     width: 2px;
     height: 60px;
     background-color: #cccc;
+    position: absolute;
+    left: 17px;
+    
     
 }
 .text__search b{
     font-size: 2rem;
+}
+
+.btn__box{
+    padding: 0.8rem 5.4rem;
+
 }
