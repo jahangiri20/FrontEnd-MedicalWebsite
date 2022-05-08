@@ -36,7 +36,7 @@
     transform: scale(1.1);  
     transition: all 0.5ms ease-in-out;
      background-color: var(--primary_color);
-    opacity: 0.5;
+    
 }
 
 .specialist__back{
