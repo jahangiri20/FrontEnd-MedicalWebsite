@@ -32,9 +32,11 @@
     border-radius: 1rem; 
 }
 .specialist__item img:hover{
-    background-color: var(--primary_color);
+    
     transform: scale(1.1);  
     transition: all 0.5ms ease-in-out;
+     background-color: var(--primary_color);
+    opacity: 0.5;
 }
 
 .specialist__back{
