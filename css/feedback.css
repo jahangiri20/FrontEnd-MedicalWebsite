@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     background-color: #F1F5FE;  
-    gap: 6rem;
+    gap: 12rem;
     margin-top: 10rem;
     padding-top: 6rem;
     
@@ -11,6 +11,8 @@
 }
 .feedback__title{
     text-align: center;
+    line-height: 9rem;
+    max-width: 58rem;
 
 
 }
@@ -33,7 +35,8 @@
 
 .feedback__right{
     display: grid;
-    grid-template-columns: 3fr 1fr;    
+    grid-template-columns: 3fr 1fr;  
+    
 }
 .feedback__item{
     display: grid;

@@ -1,13 +1,13 @@
 .health__section{
     background-color: var(--primary_color);
-    padding-bottom: 9rem;
+    padding-bottom: 8rem;
     padding-top: 2rem;
     
 }
 .health{
     display: grid;
     grid-template-columns: 1.1fr 2.1fr;
-    grid-template-rows: 35rem;
+    grid-template-rows: 33rem;
     gap: 1rem;
     font-weight: 400;
 }
@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
+    
 }
 .health__links{
     display: grid;
