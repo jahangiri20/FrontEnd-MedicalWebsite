@@ -80,7 +80,7 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     position: relative;
     z-index: 400;
-    padding: 2rem;
+    padding: 3rem;
      
 }
 .box__back:hover{
@@ -92,7 +92,8 @@
 .box__searchs{ 
     display: grid;
     grid-template-columns: 9fr 9fr 1fr;
-    justify-items: center;  
+    justify-items: center;
+     
    
  
 }
@@ -115,6 +116,27 @@
     grid-template-columns: 13fr 1fr;
    
 }
+.looking__tags{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search__tags{
+    background-color: var(--primary_color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+}
+
+.search__tags i{
+    padding-left: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
 .looking__title{
     font-size: 2rem;
     font-weight: 600;   
