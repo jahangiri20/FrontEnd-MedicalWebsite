@@ -94,7 +94,7 @@
  
 }
 .box__search,.box__location{
-    border: 0.1rem solid rgb(240, 239, 239);
+    border: 0.1rem solid #f0efef;
     border-radius: 0.5rem;
     background-color:#F8FAFC; 
 }
@@ -108,12 +108,14 @@
 .box__search i,.box__location i{
     padding: 1.5rem;
     font-size: 2rem;
+    color: gray;
 }
 .box__searchs input{
     width: 47rem;
     border:none;
     outline: none;
     background-color:#F8FAFC; 
+    color: var(--body_color);
     
     
 
@@ -140,14 +142,17 @@
     padding: 1rem;
     border-radius: 0.5rem;
     
+    
 }
 .looking__tags :hover{
-    background-color: #CCDFFF
+    background-color: #CCDFFF;
+    transition: all 0.5s ease-in;
 }
 
 .search__tags i{
     padding-left: 1rem;
     font-size: 2rem;
+    color: var(--green_color);
     cursor: pointer;
 }
 .search__tags i:hover{
@@ -161,7 +166,7 @@
     font-weight: 600;   
 }
 .btn__more{
-    color: var(--secondry_color);
+    color: var(--body_color);
     background-color: #CCDFFF;
     border-color: #cccd;
 }
