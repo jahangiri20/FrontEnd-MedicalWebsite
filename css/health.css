@@ -98,15 +98,17 @@
     border-radius: 0.5rem;
     background-color:#F8FAFC; 
 }
+
 .box__search i,.box__location i{
     padding: 1.5rem;
     font-size: 2rem;
 }
 .box__searchs input{
-    padding: 1.5rem 28rem 1.5rem 1.5rem;
+    width: 47rem;
     border:none;
     outline: none;
     background-color:#F8FAFC; 
+    
     
 
 }
@@ -133,11 +135,18 @@
     border-radius: 0.5rem;
     
 }
+.looking__tags :hover{
+    background-color: #CCDFFF
+}
 
 .search__tags i{
     padding-left: 1rem;
     font-size: 2rem;
     cursor: pointer;
+}
+.search__tags i:hover{
+    color: #FF5B66;
+    
 }
 
 
