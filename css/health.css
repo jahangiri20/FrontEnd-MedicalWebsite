@@ -83,11 +83,7 @@
     padding: 3rem;
      
 }
-.box__back:hover{
 
-
-
-}
 
 .box__searchs{ 
     display: grid;
@@ -97,12 +93,20 @@
    
  
 }
-.box__searchs input{
-    padding: 1.5rem 34rem 1.5rem 1.5rem;
-    border-radius: 0.5rem;
+.box__search,.box__location{
     border: 0.1rem solid rgb(240, 239, 239);
-    background-color:#F8FAFC; ;
+    border-radius: 0.5rem;
+    background-color:#F8FAFC; 
+}
+.box__search i,.box__location i{
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+.box__searchs input{
+    padding: 1.5rem 28rem 1.5rem 1.5rem;
+    border:none;
     outline: none;
+    background-color:#F8FAFC; 
     
 
 }
