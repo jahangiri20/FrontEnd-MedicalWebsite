@@ -70,14 +70,15 @@
     grid-template-columns: auto;
     line-height: 2.5rem;
     gap: 2rem;
-    position: relative;
+   
     
 
 }
 .find__item{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
+    position: relative;
     
     
 }
@@ -102,10 +103,11 @@
 .line::after {
     content: '';
     width: 2px;
-    height: 60px;
+    height: 76px;
     background-color: #cccc;
     position: absolute;
-    left: 17px;
+    left: 18px;
+    top:42px
     
     
 }

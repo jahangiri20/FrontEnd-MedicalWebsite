@@ -5,7 +5,7 @@
     line-height: 4rem;
     gap: 3rem;
     padding: 3rem;
-    
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 .footer__item{
     transition: all 0.5s;
@@ -32,6 +32,7 @@ li{
     color: var(--secondry_color);
     border-bottom: #6DA54F solid 0.2rem;
     
+
 }
 .footer__icons{
     border-top: 0.2rem solid #cccc;

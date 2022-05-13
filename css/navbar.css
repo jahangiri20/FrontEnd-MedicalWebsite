@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: var(--primary_color);
+    background-image: linear-gradient( #d0e9e2 , var(--primary_color) );
     display: grid;
     grid-template-columns: repeat(20 , 1fr);
     

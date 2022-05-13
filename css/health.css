@@ -65,7 +65,7 @@
 
 .health__right img{   
     position: absolute;
-    right: 10%;
+    right: 17%;
     z-index: 399;
 }
 .box__back{
@@ -156,11 +156,8 @@
     cursor: pointer;
 }
 .search__tags i:hover{
-    color: #FF5B66;
-    
+    color: #FF5B66; 
 }
-
-
 .looking__title{
     font-size: 2rem;
     font-weight: 600;   

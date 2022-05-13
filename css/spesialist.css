@@ -7,8 +7,7 @@
 .specialist__title{
     padding: 11rem 0rem 4em 0rem;
     text-align: center;
-    
-    
+     
 }
 
 
@@ -22,9 +21,13 @@
     cursor: pointer;
    
 }
-.specialist__item{
+.specialist__item:hover{
+    color: var(--secondry_color);
+    transform: translateY(-2rem);
     transition: all 0.5s ease-in;
-
+    transition-delay: 5ms;
+   
+  
 }
 
 .specialist__item img{
@@ -32,10 +35,11 @@
     border-radius: 1rem; 
 }
 .specialist__item img:hover{
+    transform: scale(1.1) ; 
+    transition: all 0.8ms ease-in-out;
     
-    transform: scale(1.1);  
-    transition: all 0.5ms ease-in-out;
-     background-color: var(--primary_color);
+    transition-delay: 8ms;
+    background-image: linear-gradient(  #a0dacb , #B0BED3 );
     
 }
 
@@ -51,7 +55,4 @@
    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 
 }
-.specialist__item:hover{
-    color: var(--secondry_color);
-    transform: translateY(-2rem);
-}
+
