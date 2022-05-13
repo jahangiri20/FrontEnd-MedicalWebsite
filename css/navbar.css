@@ -2,38 +2,27 @@
 .navbar{
     background-image: linear-gradient( #d0e9e2 , var(--primary_color) );
     display: grid;
-    grid-template-columns: repeat(20 , 1fr);
-    
+    grid-template-columns: repeat(20 , 1fr); 
     align-items: center;
-    padding: 1rem;
- 
-    
+    padding: 1rem; 
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     position: fixed;
     z-index: 900;
-    width: 100%;
-    
-   
+    width: 100%; 
 }
 .navbar__logo{
-    
-    grid-column: 2/5;
-    
+   
+    grid-column: 2/5;   
 }
 
 .navbar__menu{
    
     grid-column: 6/15;
-    
-    
-        
-   
+  
 }
 .navbar__links{
-    
-    
-    grid-column: 18/-1;
-    
+        
+    grid-column: 18/-1;   
 }
 
 .navbar__menu ul li {
@@ -47,8 +36,6 @@
 .navbar__menu ul li a:hover{
     color: var(--secondry_color);
     border-bottom: #6DA54F solid 0.2rem;
-    
-
 }
 a{
     text-decoration: none;
