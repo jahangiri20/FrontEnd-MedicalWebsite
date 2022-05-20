@@ -24,7 +24,7 @@
 .specialist__item:hover{
     color: var(--secondry_color);
     transform: translateY(-2rem);
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     transition-delay: 5ms;
    
   
@@ -36,10 +36,13 @@
 }
 .specialist__item img:hover{
     transform: scale(1.1) ; 
-    transition: all 0.8ms ease-in;
+    transition: all 200ms ease-in-out;
     
     transition-delay: 5ms;
     background-image: linear-gradient(  #a0dacb , #B0BED3 );
+
+    
+    
     
 }
 

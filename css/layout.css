@@ -74,31 +74,44 @@ p{
 button {
     cursor: pointer;
     font-family: inherit;
+    outline: none;
+    border: none;
+   
+    
   }
 .btn{
     background-color: var(--secondry_color);
     padding : 1rem 1.8rem ;
     color: white;
-    border: solid 0.2rem var(--secondry_color) ;
-    border-radius: 0.7rem;
-    box-shadow: none;
+    border-radius: 0.7rem; 
     font-size: 1.5rem;
- 
-    outline: none ;
-    box-sizing: border-box;
+    
+    
+    
+    
+    
    
 }
 .btn:hover{
     background-color: var(--green_color);
-    border: solid 0.2rem white;
     color: white;
-    
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    
+    transform: translateY(2px) translateX(2px);
+    transition: transform 200ms; 
+
+}
+
+.btn__pop {
+  box-shadow: var(--green_color) 0px 3px 3px ;
+
+}
+.btn__pop:hover{
+  
+  box-shadow: var(--green_color) 0px 0px 0px;
+  
+
 }
 .btn__darkBlue{
     background-color:var(--body_color);
-    border-color: var(--body_color);
+    
 }
 
