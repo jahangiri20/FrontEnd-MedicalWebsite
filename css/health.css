@@ -44,7 +44,7 @@
 
 .health__link:hover{
     background-color: #6DA54F ;
-   
+    transition: all 0.3s ease
 }
 .health__link img{
     padding-right: 1rem;

@@ -36,9 +36,9 @@
 }
 .specialist__item img:hover{
     transform: scale(1.1) ; 
-    transition: all 0.8ms ease-in-out;
+    transition: all 0.8ms ease-in;
     
-    transition-delay: 8ms;
+    transition-delay: 5ms;
     background-image: linear-gradient(  #a0dacb , #B0BED3 );
     
 }

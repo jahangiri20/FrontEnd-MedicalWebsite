@@ -30,7 +30,18 @@
 .feedback__left img{
     position: absolute;
     bottom: 0.4rem;
+    cursor: pointer;
+
     
+}
+.feedback__left img:hover{
+    animation: rotate 1s;
+    transition: all 5s;
+}
+@keyframes rotate {
+    0% {
+        transform: rotateY(180deg);
+    }
 }
 
 .feedback__right{
