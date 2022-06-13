@@ -105,6 +105,9 @@ button {
   
 
 }
+.btn__pop:active{
+ background-color: var(--body_color)
+}
 .btn__darkBlue{
     background-color:var(--body_color);
     
