@@ -1,6 +1,14 @@
+"use strict";
+
+let el = document.getElementsByClassName("search__tags");
+el.addEventListener("onclick" , funct);
+function funct() {
+  el.remove();
+  console.log(el);
+}
 
 
-function openTab(evt, tabb) {
+  function openTab(evt, tabb) {
 
   let i , popularContent , tablinks;
 
@@ -19,7 +27,7 @@ function openTab(evt, tabb) {
   }
 
   document.querySelector(tabb).style.display = "block";
-  evt.currentTarget.className += " active";
+  evt.currentTarget.className += "active";
 }
 
 
