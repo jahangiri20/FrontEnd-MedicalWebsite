@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="./css/solar.css">
 
     <title>We.Care-Medical</title>
+
+    <script src="./js/app.js"></script> 
 </head>
 <body>
     <section>
@@ -141,32 +143,37 @@
             <div class="container">
                 <div class="popular__searches">
                     <div class="popoular__title"><h3>Popular Searches on Wecare</h3> </div>
-                    <div class="popular__items">
+                    <div class="popular__main">
                         <div class="popular__link">
-                           <div class="tabcontent"><button onclick="openTab(event , '.specialties')" class="linkcontent btn btn__pop ">Specialties</button> </div> 
-                           <div class="tabcontent"><button onclick="openTab(event , '.conditions')" class="linkcontent btn btn__pop">Conditions </button></div>
-                           <div class="tabcontent"><button onclick="openTab(event , '.procedures')" class="linkcontent btn btn__pop">Procedures </button></div>
+                            <button class="tablinks btn btn__pop" onclick="openTab(event , '.specialtiess')">Specialties</button>  
+                            <button class="tablinks btn btn__pop" onclick="openTab(event , '.conditions')" >Conditions </button>
+                            <button class="tablinks btn btn__pop" onclick="openTab(event , '.procedures')" >Procedures </button>
                         </div>
-                        <div class="popular__content specialties active ">
+                        <div class="tab">
+                        <div class="popular__content specialtiess  active ">
+                            <div class="popular__items">
                             <div class="popular__item"><img src="assets/icon/depilation.png" alt=""><br> Dermatology</div>
                             <div class="popular__item"><img src="assets/icon/lungs.png" alt="">  <br> Internal Medicine</div>
                             <div class="popular__item"><img src="assets/icon/brain.png" alt=""> <br> Neurology</div>
                             <div class="popular__item"><img src="assets/icon/medicine.png" alt=""><br> General Medicine</div>
                             <div class="popular__item"><img src="assets/icon/molar-tooth.png" alt=""> <br> Dentisty</div>
-                            <div class="popular__item"><img src="assets/icon/nose.png" alt=""> <br> Otolaryngology</div> 
+                            <div class="popular__item"><img src="assets/icon/nose.png" alt=""> <br> Otolaryngology </div> 
+                            </div> 
                         </div>
                         <div class="popular__content conditions hidden ">
-                            
-                            Conditions texttttt textttt dbhthftj hnfmfmygfm gmghmtmytm, gjmjg mjgut gjm
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sint fugiat id provident. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                           
                         </div>
                         <div class="popular__content procedures hidden ">
-                            Procedures grhdr hdfbntdnjsqqsqd cdqwfqf
+                            procedures tab
+                        </div>
                         </div>
                            
                     </div>
                 </div>
             </div>
         </div>
+        
     </section>
     <section>
         <div class="find">
@@ -414,6 +421,7 @@
         </div>
     </div>
 </section> 
+
 </body>
-<script src="./js/app.js"></script> 
+
 </html>

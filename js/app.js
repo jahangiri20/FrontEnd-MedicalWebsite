@@ -1,29 +1,27 @@
 
 
+function openTab(evt, tabb) {
 
+  let i , popularContent , tablinks;
 
+  popularContent = document.getElementsByClassName("popular__content");
 
-const linkContent = document.querySelectorAll(".linkcontent");
+  for (i = 0; i < popularContent.length; i++) {
+    popularContent[i].style.display = "none";
 
-linkContent.forEach((el) => {
-    el.addEventListener("click", function () {
-      document.querySelectorAll(".popular__items").forEach((el) => {
-        el.classList.add("d-none");
-      });
-      linkContent.forEach((el) => {
-        el.classList.remove("active-category");
-        el.classList.remove("btn--primary");
-      });
-  
-      el.classList.add("active-category");
-      el.classList.add("btn");
-      let classTarget = document.querySelector(
-        `.${el.getAttribute("data-target")}`
-      );
-      classTarget.classList.remove("d-none");
-    });
-  });
-  
+    console.log('aaa', popularContent[i].style);
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace("active","");
+  }
+
+  document.querySelector(tabb).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
 
 
 
